@@ -1,4 +1,5 @@
 Hemi(s);systemctl status hemi | grep running > /dev/null 2>&1 && exit 0 || exit 1
+Allora(d);docker ps | grep inference > /dev/null 2>&1 && docker ps | grep updater && exit 0 || exit 1
 SpheronRoot(d);docker ps | grep fizz-fizz-1 > /dev/null 2>&1 && exit 0 || exit 1
  |--11.1.Spheron(d);docker ps | grep fizz-fizz1-1 > /dev/null 2>&1 && exit 0 || exit 1
  |--11.2.Spheron(d);docker ps | grep fizz-fizz2-1 > /dev/null 2>&1 && exit 0 || exit 1

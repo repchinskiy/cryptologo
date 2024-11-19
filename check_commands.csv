@@ -5,6 +5,7 @@
 5.Nesa(d);sudo docker ps | grep orchestrator > /dev/null 2>&1 && sudo docker ps | grep mongodb > /dev/null 2>&1 && sudo docker ps | grep docker-watchtower-1 > /dev/null 2>&1 && exit 0 || exit 1
 6.BlockMesh(s);systemctl status blockmesh | grep running > /dev/null 2>&1 && exit 0 || exit 1
 7.Sonaric(s);systemctl status sonaricd | grep running > /dev/null 2>&1 && exit 0 || exit 1
+8.Network3(sh);ifconfig wg0 > /dev/null 2>&1 && exit 0 || exit 1
 6.BlockMesh(s);systemctl status blockmesh | grep running > /dev/null 2>&1 && exit 0 || exit 1
   |--11.1.BlockMesh(s);systemctl status blockmesh1 | grep running > /dev/null 2>&1 && exit 0 || exit 1
   |--11.2.BlockMesh(s);systemctl status blockmesh2 | grep running > /dev/null 2>&1 && exit 0 || exit 1

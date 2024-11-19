@@ -1,1 +1,13 @@
 Hemi(s);systemctl status hemi | grep running > /dev/null 2>&1 && exit 0 || exit 1
+Allora(d);docker ps | grep inference > /dev/null 2>&1 && docker ps | grep updater > /dev/null 2>&1 && exit 0 || exit 1
+Vana(t);tmux capture-pane -p -S -50 -t vana | grep 'Transaction hash:' > /dev/null 2>&1 && exit 0 || exit 1
+SpheronRoot(d);docker ps | grep fizz-fizz-1 > /dev/null 2>&1 && exit 0 || exit 1
+	|--11.1.Spheron(d);docker ps | grep fizz-fizz1-1 > /dev/null 2>&1 && exit 0 || exit 1
+	|--11.2.Spheron(d);docker ps | grep fizz-fizz2-1 > /dev/null 2>&1 && exit 0 || exit 1
+	|--11.3.Spheron(d);docker ps | grep fizz-fizz3-1 > /dev/null 2>&1 && exit 0 || exit 1
+	|--11.4.Spheron(d);docker ps | grep fizz-fizz4-1 > /dev/null 2>&1 && exit 0 || exit 1
+	|--11.5.Spheron(d);docker ps | grep fizz-fizz5-1 > /dev/null 2>&1 && exit 0 || exit 1
+	|--11.6.Spheron(d);docker ps | grep fizz-fizz6-1 > /dev/null 2>&1 && exit 0 || exit 1
+	|--11.7.Spheron(d);docker ps | grep fizz-fizz7-1 > /dev/null 2>&1 && exit 0 || exit 1
+	|--11.8.Spheron(d);docker ps | grep fizz-fizz8-1 > /dev/null 2>&1 && exit 0 || exit 1
+	|--11.9.Spheron(d);docker ps | grep fizz-fizz9-1 > /dev/null 2>&1 && exit 0 || exit 1

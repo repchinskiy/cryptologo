@@ -1,3 +1,4 @@
 SpheronRoot(d);docker ps | grep fizz-fizz-1 > /dev/null 2>&1 && exit 0 || exit 1
-SpheronRoot2(d);docker ps | grep fizz-fizz2 > /dev/null 2>&1 && exit 0 || exit 1
-SpheronRoot3(d);docker ps | grep fizz-fizz3 > /dev/null 2>&1 && exit 0 || exit 1
+SpheronRoot2(d);docker ps | grep fizz-fizz22 > /dev/null 2>&1 && exit 0 || exit 1
+SpheronRoot3(d);docker ps | grep fizz-fizz33 > /dev/null 2>&1 && exit 0 || exit 1
+SpheronRoot3(d);docker ps | grep fizz-fizz4 > /dev/null 2>&1 && exit 0 || exit 1

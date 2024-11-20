@@ -1,4 +1,4 @@
----------[Scaling#12]---------;exit 0 || exit 1
+---------[Scaling#13]---------;exit 0 || exit 1
 10.Rivalz(cli);rivalz info > /dev/null 2>&1 && exit 0 || exit 1
    |--1.rivalz-abuse-123(d);docker ps | grep 8463a33685d7 > /dev/null 2>&1 && exit 0 || exit 1
    |--2.rivalz-abuse-117(d);docker ps | grep 2fa5c982d0a4 > /dev/null 2>&1 && exit 0 || exit 1

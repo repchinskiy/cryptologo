@@ -10,7 +10,7 @@
   |--8.BlockMesh(s);systemctl status blockmesh8 | grep running > /dev/null 2>&1 && exit 0 || exit 1
   |--9.BlockMesh(s);systemctl status blockmesh9 | grep running > /dev/null 2>&1 && exit 0 || exit 1
   |--10.BlockMesh(s);systemctl status blockmesh10 | grep running > /dev/null 2>&1 && exit 0 || exit 1
-  |--BlockMesh(s);systemctl status blockmesh11 | grep running > /dev/null 2>&1 && exit 0 || exit 1
+  |--11.BlockMesh(s);systemctl status blockmesh11 | grep running > /dev/null 2>&1 && exit 0 || exit 1
   |--12.BlockMesh(s);systemctl status blockmesh12 | grep running > /dev/null 2>&1 && exit 0 || exit 1
   |--13.BlockMesh(s);systemctl status blockmesh13 | grep running > /dev/null 2>&1 && exit 0 || exit 1
   |--14.BlockMesh(s);systemctl status blockmesh14 | grep running > /dev/null 2>&1 && exit 0 || exit 1

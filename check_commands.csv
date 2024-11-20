@@ -7,7 +7,7 @@
 7.Sonaric(s);systemctl status sonaricd | grep running > /dev/null 2>&1 && exit 0 || exit 1
 8.Network3(sh);ifconfig wg0 > /dev/null 2>&1 && exit 0 || exit 1
 9.AbstractNode(d);sudo docker ps | grep testnet-node-external-node-1 > /dev/null 2>&1 && sudo docker ps | grep testnet-node-grafana-1 > /dev/null 2>&1 && sudo docker ps | grep testnet-node-prometheus-1 > /dev/null 2>&1 && sudo docker ps | grep testnet-node-postgres-1 > /dev/null 2>&1 && exit 0 || exit 1
-10.Rivalz(cli);sudo rivalz info > /dev/null 2>&1 && exit 0 || exit 1
+10.Rivalz(cli);rivalz info > /dev/null 2>&1 && exit 0 || exit 1
 6.BlockMesh(s);systemctl status blockmesh | grep running > /dev/null 2>&1 && exit 0 || exit 1
   |--11.1.BlockMesh(s);systemctl status blockmesh1 | grep running > /dev/null 2>&1 && exit 0 || exit 1
   |--11.2.BlockMesh(s);systemctl status blockmesh2 | grep running > /dev/null 2>&1 && exit 0 || exit 1

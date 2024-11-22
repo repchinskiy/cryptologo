@@ -13,4 +13,4 @@
 13.Nillion(d);sudo docker ps | grep nillion > /dev/null 2>&1 && exit 0 || exit 1
 14.ICN(t);sudo tmux capture-pane -p -S -50 -t impossible | grep 'level=INFO' > /dev/null 2>&1 && exit 0 || exit 1
 15.SpheronRoot(d);docker ps | grep fizz-fizz-1 > /dev/null 2>&1 && exit 0 || exit 1
-#16.Infera(sh);curl http://localhost:11025/points > /dev/null 2>&1 && exit 0 || exit 1
+16.Infera(sh);curl http://localhost:11025/points > /dev/null 2>&1 && exit 0 || exit 1

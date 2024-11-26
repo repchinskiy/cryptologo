@@ -5,7 +5,7 @@
 3.Vana(t);sudo tmux capture-pane -p -S -100 -t vana | grep 'step(' > /dev/null 2>&1 && exit 0 || exit 1
 4.Ritual(d);sudo docker ps | grep infernet-anvil > /dev/null 2>&1 && exit 0 || exit 1
 5.Nesa(d);sudo docker ps | grep orchestrator > /dev/null 2>&1 && sudo docker ps | grep mongodb > /dev/null 2>&1 && sudo docker ps | grep docker-watchtower-1 > /dev/null 2>&1 && exit 0 || exit 1
-6.BlockMesh(s);systemctl status blockmesh | grep running > /dev/null 2>&1 && exit 0 || exit 1
+6.[DEPRECATED] BlockMesh(s);systemctl status blockmesh | grep running > /dev/null 2>&1 && exit 0 || exit 1
 7.Sonaric(s);systemctl status sonaricd | grep running > /dev/null 2>&1 && exit 0 || exit 1
 8.Network3(sh);ifconfig wg0 > /dev/null 2>&1 && exit 0 || exit 1
 9.AbstractNode(d);sudo docker ps | grep testnet-node-external-node-1 > /dev/null 2>&1 && sudo docker ps | grep testnet-node-grafana-1 > /dev/null 2>&1 && sudo docker ps | grep testnet-node-prometheus-1 > /dev/null 2>&1 && sudo docker ps | grep testnet-node-postgres-1 > /dev/null 2>&1 && exit 0 || exit 1
@@ -16,3 +16,4 @@
 14.ICN(t);sudo tmux capture-pane -p -S -50 -t impossible | grep 'level=INFO' > /dev/null 2>&1 && exit 0 || exit 1
 15.SpheronRoot(d);docker ps | grep fizz-fizz-1 > /dev/null 2>&1 && exit 0 || exit 1
 16.Infera(sh);curl http://localhost:11025/points > /dev/null 2>&1 && exit 0 || exit 1
+17.GaianaNet(cli);gaianet info > /dev/null 2>&1 && exit 0 || exit 1

@@ -16,4 +16,4 @@
 14.ICN(t);sudo tmux capture-pane -p -S -50 -t impossible | grep 'level=INFO' > /dev/null 2>&1 && exit 0 || exit 1
 15.SpheronRoot(d);docker ps | grep fizz-fizz-1 > /dev/null 2>&1 && exit 0 || exit 1
 16.Infera(sh);curl http://localhost:11025/points > /dev/null 2>&1 && exit 0 || exit 1
-17.GaianaNet(cli);gaianet info > /dev/null 2>&1 && exit 0 || exit 1
+17.GaianaNet(cli);tail -20 /root/gaianet/log/assistant.log | grep 'Notification sent to all subscribers successfully!' > /dev/null 2>&1 && exit 0 || exit 1

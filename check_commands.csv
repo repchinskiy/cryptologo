@@ -18,4 +18,4 @@
 16.Infera(sh);curl http://localhost:11025/points > /dev/null 2>&1 && exit 0 || exit 1
 17.GaianaNet(cli);tail -20 /root/gaianet/log/assistant.log | grep 'Notification sent to all subscribers successfully!' > /dev/null 2>&1 && exit 0 || exit 1
 18.Multiple(cli);pgrep --count multiple-node > /dev/null 2>&1 && exit 0 || exit 1
-18.Cysic(sh);sudo tmux capture-pane -p -S -20 -t cysic | grep 'sync data from server finish' > /dev/null 2>&1 && exit 0 || exit 1
+18.Cysic(t/sh);sudo tmux capture-pane -p -S -20 -t cysic | grep 'sync data from server finish' > /dev/null 2>&1 && exit 0 || exit 1

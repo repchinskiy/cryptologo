@@ -1,3 +1,4 @@
+21.Elixir(t/sh);sudo tmux capture-pane -p -t elixir | tail -25 | grep 'VALIDATOR ONLINE' > /dev/null 2>&1 && exit 0 || exit 1
 ---------[Scaling#11]---------;exit 0 || exit 1
 6.BlockMeshRoot(s);systemctl status blockmesh | grep running > /dev/null 2>&1 && exit 0 || exit 1
   |--1.BlockMesh(s);systemctl status blockmesh1 | grep running > /dev/null 2>&1 && exit 0 || exit 1

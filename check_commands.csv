@@ -28,3 +28,5 @@
 20.Block Labs(tme);exit 0 || exit 1
 21.PipeNetwork(s);systemctl status dcdnd | grep running > /dev/null 2>&1 && exit 0 || exit 1
 22.Citrea(d);docker ps | grep citrea > /dev/null 2>&1 && docker ps | grep bitcoin > /dev/null 2>&1 && exit 0 || exit 1
+#23.Elixir(t/sh);sudo tmux capture-pane -p -t elixir | tail -25 | grep 'VALIDATOR ONLINE' > /dev/null 2>&1 && exit 0 || exit 1
+23.Elixir(t/sh);sudo docker ps | grep elixir > /dev/null 2>&1 && exit 0 || exit 1

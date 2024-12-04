@@ -27,3 +27,4 @@
 19.Cysic(t/sh);sudo tmux capture-pane -p -t cysic | tail -50 | grep 'sync data from server finish' > /dev/null 2>&1 && exit 0 || exit 1
 20.Block Labs(tme);exit 0 || exit 1
 21.PipeNetwork(s);systemctl status dcdnd | grep running > /dev/null 2>&1 && exit 0 || exit 1
+22.Citrea(d);docker ps | grep citrea > /dev/null 2>&1 && docker ps | grep bitcoin > /dev/null 2>&1 && exit 0 || exit 1

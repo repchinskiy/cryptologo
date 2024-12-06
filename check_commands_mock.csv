@@ -18,5 +18,5 @@
 12.Memhash(tme);exit 0 || exit 1
 13.Nillion(d);sudo docker ps | grep nillion > /dev/null 2>&1 && exit 0 || exit 1
 #14.ICN(t);sudo tmux capture-pane -p -S -50 -t impossible | grep 'level=INFO' > /dev/null 2>&1 && exit 0 || exit 1
-14.ICN2(t);sudo tmux capture-pane -p -t impossible | tail -50 | grep 'level=INFO' > /dev/null 2>&1 && exit 0 || exit 1
+14.ICN3(t);sudo tmux capture-pane -p -t impossible | tail -50 | grep 'level=INFO' > /dev/null 2>&1 && exit 0 || exit 1
 #15.SpheronRoot3(d);docker ps | grep fizz > /dev/null 2>&1 && exit 0 || exit 1

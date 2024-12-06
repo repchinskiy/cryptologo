@@ -1,0 +1,5 @@
+1.Mock1(s);exit 0 || exit 1
+2.Mock2(s);exit 0 || exit 1
+3.Mock3(s);exit 0 || exit 1
+4.Mock4(s);exit 0 || exit 1
+5.Mock5(s);exit 0 || exit 1

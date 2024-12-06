@@ -14,3 +14,8 @@
 8.Network3(sh);ifconfig wg0 > /dev/null 2>&1 && exit 0 || exit 1
 9.AbstractNode(d);sudo docker ps | grep testnet-node-external-node-1 > /dev/null 2>&1 && sudo docker ps | grep testnet-node-grafana-1 > /dev/null 2>&1 && sudo docker ps | grep testnet-node-prometheus-1 > /dev/null 2>&1 && sudo docker ps | grep testnet-node-postgres-1 > /dev/null 2>&1 && exit 0 || exit 1
 10.Rivalz(cli);rivalz info > /dev/null 2>&1 && exit 0 || exit 1
+11.Dawn(ext);exit 0 || exit 1
+12.Memhash(tme);exit 0 || exit 1
+13.Nillion(d);sudo docker ps | grep nillion > /dev/null 2>&1 && exit 0 || exit 1
+#14.ICN(t);sudo tmux capture-pane -p -S -50 -t impossible | grep 'level=INFO' > /dev/null 2>&1 && exit 0 || exit 1
+14.ICN(t);sudo tmux capture-pane -p -t impossible | tail -50 | grep 'level=INFO' > /dev/null 2>&1 && exit 0 || exit 1

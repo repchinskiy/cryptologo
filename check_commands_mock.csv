@@ -21,4 +21,3 @@
 14.ICN(t);sudo tmux capture-pane -p -t impossible | tail -50 | grep 'level=INFO' > /dev/null 2>&1 && exit 0 || exit 1
 15.SpheronRoot(d);docker ps | grep fizz > /dev/null 2>&1 && exit 0 || exit 1
 16.Infera(sh);curl http://localhost:11025/points > /dev/null 2>&1 && exit 0 || exit 1
-17.GaianaNet(cli);ps aux | grep gaianet_chat.py > gaianet_pid.log;less gaianet_pid.log | grep root/gaianet.chat > /dev/null 2>&1 && exit 0 || exit 1

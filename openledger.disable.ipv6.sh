@@ -3,7 +3,7 @@
 sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1
 sudo sysctl -w net.ipv6.conf.default.disable_ipv6=1
 ufw allow 8000;ufw allow 5555;ufw allow 443;ufw allow 8080
-apt install unzip
+sudo apt install unzip
 . <(wget -qO- https://raw.githubusercontent.com/g7AzaZLO/server_primary_setting/refs/heads/main/server_primary_setting)
 wget https://cdn.openledger.xyz/openledger-node-1.0.0-linux.zip
 unzip openledger-node-1.0.0-linux.zip

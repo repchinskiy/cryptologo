@@ -1,5 +1,5 @@
 #!/bin/bash
-version="v0.11.0"
+version="v0.11.1"
 curl -s https://raw.githubusercontent.com/DOUBLE-TOP/tools/main/doubletop.sh | bash
 systemctl stop hemi
 cd $HOME

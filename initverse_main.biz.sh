@@ -51,8 +51,7 @@ Environment=WALLET=\$WALLET NODE_NAME=\$NODE_NAME
 [Install]
 WantedBy=multi-user.target
 EOT"
-
-            # Запуск сервиса
+			# Запуск сервиса
             sudo systemctl daemon-reload
             sudo systemctl restart systemd-journald
             sleep 1

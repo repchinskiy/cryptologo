@@ -1,5 +1,5 @@
 #!/bin/bash
-version="v0.11.2"
+version="v0.11.4"
 curl -s https://raw.githubusercontent.com/DOUBLE-TOP/tools/main/doubletop.sh | bash
 systemctl stop hemi
 cd $HOME
@@ -10,4 +10,5 @@ rm -rf $HOME/heminetwork_"$version"_linux_amd64
 sudo systemctl daemon-reload
 echo start hemi ... 
 sudo systemctl start hemi
+echo hemi version $version
 echo OK 

@@ -21,20 +21,20 @@ sleep 1
         sudo apt update && sudo apt upgrade -y
 
         # Проверка архитектуры системы и выбор подходящего клиента
-        echo -e "${BLUE}Проверяем архитектуру системы...${NC}"
-        ARCH=$(uname -m)
-        if [[ "$ARCH" == "x86_64" ]]; then
-            CLIENT_URL="https://cdn.app.multiple.cc/client/linux/x64/multipleforlinux.tar"
-        elif [[ "$ARCH" == "aarch64" ]]; then
-            CLIENT_URL="https://cdn.app.multiple.cc/client/linux/arm64/multipleforlinux.tar"
-        else
-            echo -e "${RED}Неподдерживаемая архитектура системы: $ARCH${NC}"
-            exit 1
-        fi
+#        echo -e "${BLUE}Проверяем архитектуру системы...${NC}"
+#        ARCH=$(uname -m)
+#        if [[ "$ARCH" == "x86_64" ]]; then
+#            CLIENT_URL="https://cdn.app.multiple.cc/client/linux/x64/multipleforlinux.tar"
+#        elif [[ "$ARCH" == "aarch64" ]]; then
+#            CLIENT_URL="https://cdn.app.multiple.cc/client/linux/arm64/multipleforlinux.tar"
+#        else
+#            echo -e "${RED}Неподдерживаемая архитектура системы: $ARCH${NC}"
+#            exit 1
+#        fi
 
         # Скачиваем клиент
-        echo -e "${BLUE}Скачиваем клиент с $CLIENT_URL...${NC}"
-        wget $CLIENT_URL -O multipleforlinux.tar
+ #       echo -e "${BLUE}Скачиваем клиент с $CLIENT_URL...${NC}"
+ #       wget $CLIENT_URL -O multipleforlinux.tar
 
         # Распаковываем архив
         echo -e "${BLUE}Распаковка файлов...${NC}"

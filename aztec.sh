@@ -31,7 +31,7 @@ version: "3.8"
 
 services:
   aztec-node:
-    image: aztecprotocol/aztec:0.85.0-alpha-testnet.5
+    image: aztecprotocol/aztec:0.85.0-alpha-testnet.8
     container_name: aztec-node
     environment:
       ETHEREUM_HOSTS: "\${RPC_URL}"
